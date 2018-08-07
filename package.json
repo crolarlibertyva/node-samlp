@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "github:mcguinness/node-samlp",
+      "/home/edward/Projects/saml-idp"
+    ]
+  ],
+  "_from": "github:mcguinness/node-samlp",
+  "_id": "samlp@github:mcguinness/node-samlp#e6c5e3ed4c02546e0b4008a339173a71d86b602f",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/samlp",
+  "_phantomChildren": {
+    "moment": "2.15.2",
+    "valid-url": "1.0.9",
+    "xml-crypto": "0.10.1",
+    "xml-encryption": "0.11.0",
+    "xml-name-validator": "2.0.1",
+    "xpath": "0.0.5"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "github:mcguinness/node-samlp",
+    "rawSpec": "github:mcguinness/node-samlp",
+    "saveSpec": "github:mcguinness/node-samlp",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:mcguinness/node-samlp#e6c5e3ed4c02546e0b4008a339173a71d86b602f",
+  "_spec": "github:mcguinness/node-samlp",
+  "_where": "/home/edward/Projects/saml-idp",
+  "author": {
+    "name": "Auth0"
+  },
+  "bugs": {
+    "url": "https://github.com/auth0/node-samlp/issues"
+  },
+  "dependencies": {
+    "@auth0/thumbprint": "0.0.6",
+    "ejs": "2.5.5",
+    "flowstate": "^0.4.0",
+    "querystring": "^0.2.0",
+    "saml": "github:mcguinness/node-saml",
+    "xml-crypto": "^0.10.1",
+    "xmldom": "github:auth0/xmldom#v0.1.19-auth0_1",
+    "xpath": "0.0.5",
+    "xtend": "^1.0.3"
+  },
+  "description": "SAML Protocol server middleware",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "~1.5.0",
+    "cheerio": "~0.10.7",
+    "express": "~3.1.0",
+    "express-session": "^1.14.2",
+    "istanbul": "^0.4.5",
+    "mocha": "~1.8.1",
+    "request": "~2.14.0",
+    "uid2": "0.0.3"
+  },
+  "homepage": "https://github.com/auth0/node-samlp#readme",
+  "keywords": [
+    "saml",
+    "auth"
+  ],
+  "license": "mit",
+  "main": "lib/index.js",
+  "name": "samlp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auth0/node-samlp.git"
+  },
+  "scripts": {
+    "cover": "istanbul cover ./node_modules/.bin/_mocha",
+    "open_cover": "open coverage/lcov-report/*.html",
+    "test": "_mocha -R spec"
+  },
+  "version": "3.4.0"
+}
