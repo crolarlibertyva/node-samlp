@@ -23,7 +23,7 @@
     "ejs": "2.5.5",
     "flowstate": "^0.4.0",
     "querystring": "^0.2.0",
-    "saml": "^0.12.5",
+    "saml": "https://github.com/edpaget/node-saml",
     "xml-crypto": "^0.10.1",
     "xpath": "0.0.5",
     "xtend": "^1.0.3",
